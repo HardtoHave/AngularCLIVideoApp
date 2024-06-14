@@ -11,7 +11,6 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './pages/login/login.component';
 import { UploadComponent } from './pages/upload/upload.component';
 import { PlayerComponent } from './pages/player/player.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule} from "@angular/material/button";
 import { MatCardModule } from "@angular/material/card";
 import { MatFormFieldModule } from "@angular/material/form-field";
@@ -31,7 +30,6 @@ import { MatProgressSpinnerModule} from "@angular/material/progress-spinner";
     FormsModule,
     CommonModule,
     HttpClientModule,
-    BrowserAnimationsModule,
     MatButtonModule,
     MatCardModule,
     MatFormFieldModule,
